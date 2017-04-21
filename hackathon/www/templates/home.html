@@ -1,0 +1,25 @@
+<ion-view title="Hackathon Project" id="page2">
+
+  <script id = "home.html" type = "text/ng-template">
+     <ion-modal-view>
+        <ion-header-bar>
+           <h1 class = "title">Modal Title</h1>
+        </ion-header-bar>
+
+        <ion-content>
+           <button class = "button icon icon-left ion-ios-close-outline"
+              ng-click = "closeModal()">Close Modal</button>
+        </ion-content>
+     </ion-modal-view>
+  </script>
+
+
+
+  <ion-content padding="true" class="has-header">
+
+    <div class="spacer" style="width: 300px; height: 175px;"></div>
+    <button id="helpMe-button1" class="button button-positive  button-block" ng-click="login()">Sign Up</button>
+    <hr>
+    <button id="helpMe-button2" class="button button-positive  button-block">Log In</button>
+  </ion-content>
+</ion-view>
