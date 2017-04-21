@@ -15,7 +15,7 @@ angular.module('starter.controllers', [])
   };
   $timeout(function() {
       $scope.login();
-    }, 1000)
+    }, 50)
 
 })
 
